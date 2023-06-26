@@ -1,0 +1,11 @@
+
+GET http://127.0.0.1:1337/login?email=admin@gmail.com&password=123456
+
+###
+POST http://127.0.0.1:1337/add_doctors
+
+{
+    "doctor_name":"demo",
+    "designation":"Ass prof",
+    "phone":"012165654"
+}
